@@ -1,0 +1,140 @@
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #282c3f;
+    background-color: #ffffff;
+}
+
+/* PROMOTIONAL BAR */
+.offer-bar {
+    background: #ff3f6c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 5%;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    gap: 25px;
+}
+
+.logo {
+    font-size: 27px;
+    font-weight: 900;
+    color: #ff3f6c;
+    text-decoration: none;
+    letter-spacing: -1px;
+}
+
+.logo span {
+    color: #282c3f;
+}
+
+.nav-links {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 12px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff3f6c;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #f5f5f6;
+    padding: 12px;
+    border-radius: 5px;
+    flex: 1;
+    max-width: 350px;
+}
+
+.search-box span {
+    font-size: 23px;
+    margin-right: 10px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 12px;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 18px;
+}
+
+.nav-icons a {
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 21px;
+    text-align: center;
+}
+
+.nav-icons small {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* HERO BANNER */
+.hero {
+    min-height: 450px;
+    background:
+        linear-gradient(90deg, rgba(20,15,30,0.65), rgba(20,15,30,0.05)),
+        url("https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1600")
+        center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 60px 8%;
+    color: white;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-tag {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    line-height: 1.15
